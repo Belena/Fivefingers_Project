@@ -23,9 +23,19 @@ p
   {
     font-size: 80%
   }
-
+blockquote {
+  width: 100%;
+  padding:0;
+  margin:0;
+  text-align: justify;
+}
 img
 { border: 0;}
+
+a
+{
+  color: #F90;
+}
 
 h1, h2 
 { font: normal 175% Helvetica, sans-serif, Arial;
@@ -259,6 +269,8 @@ div.searchbox {
 .cart img
 {
   float: right;
+  width:35px;
+  height: 35px;
 }
 
 .cart p
@@ -281,9 +293,18 @@ div.searchbox {
   margin-bottom: 10px;
 }
 
+.sidebarimg img
+{
+  width: 100%;
+  height: 350px;
+}
+.social 
+{text-align:left; padding:8px 0 0 0; 
+}
 
-.social {text-align:left; padding:8px 0 0 0; }
-.social img {margin:0 6px;}
+.social img 
+{margin:0 6px;
+}
 
 .content_item
 { width: 630px;
@@ -297,13 +318,69 @@ div.searchbox {
 
 table
 {
+  position: relative;
   border:1px solid #FF9900;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; 
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   width: 100%;
   border-spacing: 5;
   padding: 5;
 }
 
+td {
+  /*text-align: center;*/
+  width: 33%;
+  height: 100px;
+  vertical-align:top;
+  color: #7A1F00
 
+}
+
+td p
+{
+  text-align: center;
+  margin-bottom: 0;
+  /*padding-top: 10px;*/
+  padding: 0;
+  color: #656565;
+  font-size: 85%;
+  /*font-weight:bold;*/
+  text-decoration: underline;
+}
+
+.photo
+{
+  width: 160px;
+  height: 150px;
+  padding: 0 15px;
+}
+
+.add 
+{
+  width: 65%;
+  padding-top: 15px;
+  float: right;
+  text-align: left;
+}
+
+.add a
+{
+color: #7A1F00;
+}
+
+.add a:hover
+{
+ color: #F90;
+}
+
+.imgcart 
+{float: left;
+ width:35px;
+ height: 35px;
+ padding-left: 10px;
+ }
   
 #footer
 { width: 920px;
