@@ -268,10 +268,10 @@ ul#menu li a
   border: 2px inset;
   border-color: white;
 }
-  .form_right p #address
-{
-  border: 2px inset;
+  textarea
+ {
   border-color: white;
+
 }
 
 .titlesign
