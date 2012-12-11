@@ -4,15 +4,18 @@ html
   padding: 0;}
 
 body
-{ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  background: #faf5f0;
+{ 
+  font-weight: normal;
+  font-size: 90%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  background: #FFFFE0;
   color: #000;
 }
 
 p
 { padding: 0 0 15px 0;
-  line-height: 1.5em;
-  font-size: 95%;
+  font-size: 85%;
+  line-height: 1.7em;
   margin:0;
   text-align: justify;
   }
@@ -37,7 +40,7 @@ a
 
 h1, h2 
 { 
-  font: normal 175% Helvetica, sans-serif, Arial;
+  font: normal 155% Helvetica, sans-serif, Arial;
   color: #FF9900;
   letter-spacing: -1px;
   margin: 0 0 10px 0;
@@ -45,7 +48,7 @@ h1, h2
 
 h2
 { 
-  font: normal 165% Helvetica, sans-serif, Arial;
+  font: normal 155% Helvetica, sans-serif, Arial;
 }
 
 h3
@@ -91,13 +94,19 @@ ol li
 { 
   margin: 0 0 11px 0;
   padding-left: 15px;
-  font-size: 95%;
+  font-size: 80%;
 }
 
 ul li
 {
 margin: 8px 0 10px 10px;
-font-size: 95%;
+font-size: 80%;
+line-height: 1.5em;
+}
+
+ul li a
+{
+  min-width: 10%;
 }
 
 #main, #header, #banner, #menubar, #site_content, #footer
@@ -115,7 +124,7 @@ font-size: 95%;
 { width: 920px;
   height: 250px;
   margin: 0 auto;
-  background: #FFFFCC;
+  
 } 
 
 #slideshow img
@@ -130,6 +139,7 @@ font-size: 95%;
 { width: 920px;
   height: 60px;
   background: transparent no-repeat;
+  padding-top: 5px;
 }
 
 #menubar
@@ -139,6 +149,11 @@ font-size: 95%;
   margin: 0 auto;
   background: transparent no-repeat;
 } 
+
+#menubar ul li
+{
+  font-size: 90%;
+}
   
 #welcome
 { width: 880px;
@@ -151,7 +166,7 @@ font-size: 95%;
    
 #welcome h1
 { 
-  font: normal 250% Arial, Helvetica, sans-serif;
+  font: normal 150% Helvetica, sans-serif, Arial;
   letter-spacing: -2px;
   color: #FF9900;
 } 
@@ -164,11 +179,12 @@ font-size: 95%;
 ul#menu
 { 
   margin:0;
+  text-align: center;
 }
 
 ul#menu li
 { 
-  padding: 0 0 0 0px;
+  padding: 0;
   list-style: none;
   margin: 2px 0 0 0;
   display: inline;
@@ -180,7 +196,7 @@ ul#menu li a
   float: left;
   height: 25px;
   margin: 5px 0 0 5px;
-  padding: 5px 20px 0 20px;
+  padding: 5px 10px 0 10px;
   text-align: center;
   color: #FF9900;
   text-decoration: none;
@@ -293,6 +309,7 @@ div.searchbox
   clear: both;
 }
 
+
 .cart
 {
   width: 230px;
@@ -330,7 +347,6 @@ div.searchbox
 {
   float: left;
   width: 240px;
-  /*border: 1px solid gray;*/
   padding: 0 0 0 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -373,7 +389,7 @@ div.searchbox
 .content_image
 { 
   float: left; 
-  width: 630px;
+  min-width: 640px;
 }
 
 table
