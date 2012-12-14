@@ -30,7 +30,7 @@ function ShowDate()
 window.onload = initAll;
   
   var ImageArr1 = new Array
-  ("Pict1.jpg","Pict2.jpg","Pict3.jpg","Pict4.jpg","Pict5.jpg","Pict6.jpg","Pict7.jpg");
+  ("Pict1.jpg","Pict2.jpg","Pict3.jpg","Pict4.jpg","Pict5.jpg");
   
   function initAll() {
     RotateImages(0);

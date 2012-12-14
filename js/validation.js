@@ -150,17 +150,17 @@ if (address==null || address=="")
      return false;
   }
 
-  if (isNaN(phone) || phone.indexOf(" ")! = -1) {
+  if (isNaN(phone) || phone.indexOf(" ") != -1) {
      alert("Enter numeric value");
      return false;
   }
              
-  if (phone).length > 10) {
+  if (phone.length > 10) {
     alert("phone number must have maximum 10 characters"); 
     return false;
   }
 
-  if (phone).length < 7) {
+  if (phone.length < 7) {
     alert("phone number must have minimum characters"); 
     return false;
   }

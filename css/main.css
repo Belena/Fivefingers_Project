@@ -8,7 +8,7 @@ body
   font-weight: normal;
   font-size: 90%;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  background: #FFFFE0;
+  background: #FFFFE3;
   color: #000;
 }
 
@@ -88,13 +88,15 @@ ol
 { 
   margin: 8px 0 22px 5px;
   text-align: justify;
+  font-size: 80%;
+  color: black;
 }
 
 ol li
 { 
   margin: 0 0 11px 0;
   padding-left: 15px;
-  font-size: 80%;
+  
 }
 
 ul li
@@ -236,7 +238,7 @@ ul#menu li a
   -khtml-border-radius: 10px; 
   -moz-border-radius: 10px;
   border-radius: 10px;
-  background: #FFF3DC;
+  border:1px solid #FF9900;
   width: 444px;
   height: 450px;
   float: left;
@@ -249,7 +251,7 @@ ul#menu li a
   -khtml-border-radius: 10px; 
   -moz-border-radius: 10px;
    border-radius: 10px;
-   background: #FFF3DC;
+   border:1px solid #FF9900;
    height: 450px;
    width: 444px;
    float: right;
@@ -347,7 +349,7 @@ div.searchbox
 {
   float: left;
   width: 240px;
-  padding: 0 0 0 10px;
+  padding: 0 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -386,10 +388,12 @@ div.searchbox
 }
 
   
-.content_image
+.content_image img
 { 
-  float: left; 
-  min-width: 640px;
+  float: left;
+  padding-left: 70px;
+  width: 500px;
+  height: 320px;
 }
 
 table
@@ -501,8 +505,13 @@ h6.footertext
   text-decoration: underline;
 }
   
- 
-
+#footer p
+{
+  font-size: 75%;
+  text-align: center;
+  color: #656565;
+  text-decoration: underline;
+}
 
 
 
